@@ -35,9 +35,10 @@ class ScrapedSubmission:
             self.author = '[deleted]'
 
         # We don't need to wait around, lets just get them now.
-        self.comments = self._get_comments()
+        
+        #comments = self.get_comments()
 
-    def _get_comments(self):
+    def get_comments(self):
 
         scraped = []
 
